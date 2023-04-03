@@ -2,15 +2,15 @@ import { ObjectType, Field, Int } from '@nestjs/graphql';
 
 @ObjectType()
 export class Resource {
-    @Field({ description: 'Task name' })
+    @Field({ description: 'Resource Description' })
     description: string;
 
-    @Field({ description: 'Task name', nullable: true })
+    @Field({ description: 'First name', nullable: true })
     firstName: string;
 
-    @Field({ description: 'Task name', nullable: true })
+    @Field({ description: 'Last name', nullable: true })
     lastName: string;
 
-    @Field({ description: 'Task name' })
+    @Field({ description: 'Message' })
     message: string;
 }
