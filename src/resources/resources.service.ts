@@ -15,7 +15,7 @@ export class ResourcesService {
                 message: 'I need to learnn Graph',
                 lastName: 'Adewambe',
             },
-        ];
+        ]
     }
 
     findOne(id: number) {
